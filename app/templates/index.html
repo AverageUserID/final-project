@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Stock Percent Changes</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Stock Percent Change Viewer</h1>
+        <form id="stock-form">
+            <input type="text" id="symbol-input" placeholder="Enter stock symbol" required>
+            <button type="submit">Search</button>
+        </form>
+
+        <div id="error" class="error"></div>
+        <div id="results" style="display:none;">
+            <h2 id="stock-title"></h2>
+            <img id="plot" alt="Stock Plot">
+            <pre id="raw-data"></pre>
+        </div>
+    </div>
+
+    <script src="/static/script.js"></script>
+</body>
+</html>

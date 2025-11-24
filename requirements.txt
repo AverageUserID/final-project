@@ -1,0 +1,6 @@
+fastapi
+uvicorn
+httpx
+matplotlib
+jinja2
+python-multipart
