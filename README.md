@@ -6,15 +6,7 @@ Solution: I developed a containerized application that exposes a lightweight API
 # System Overview
 Course Concepts Used: Docker containerization, FastAPI, External API usage.
 
-Architecture Diagram: 
-```mermaid
-flowchart TD
-    C[Client Browser\nSends HTTP Requests] --> D[Docker Container\nfinal-project]
-    E[Environment Variables\nfrom env file] --> D
-    D --> F[FastAPI Application\nmain.py]
-    D --> X[Docker Engine]
-```
-
+![Architecture Diagram](assets/architecture_diagram.png)
 Data/Models/Services: fincancialmodelingprep API (requires API key), Enviromental variable (stored in .env), Python FastAPI.
 
 # How to Run (Local)
