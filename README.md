@@ -9,10 +9,10 @@ Course Concepts Used: Docker containerization, FastAPI, External API usage.
 Architecture Diagram: 
 ```mermaid
 flowchart TD
-    C[Client / Browser] -->|HTTP Request| D[Docker Container]
-    E[Environment Variables (.env)] --> D
-    D --> F[FastAPI App (main.py)]
-    D --> DE[Docker Engine]
+    C[Client Browser\nSends HTTP Requests] --> D[Docker Container\nfinal-project]
+    E[Environment Variables\nfrom env file] --> D
+    D --> F[FastAPI Application\nmain.py]
+    D --> X[Docker Engine]
 ```
 
 Data/Models/Services: fincancialmodelingprep API (requires API key), Enviromental variable (stored in .env), Python FastAPI.
