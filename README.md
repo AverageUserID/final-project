@@ -7,7 +7,7 @@ Solution: I developed a containerized application that exposes a lightweight API
 Course Concepts Used: Docker containerization, FastAPI, External API usage.
 
 Architecture Diagram: 
-
+```mermaid
 flowchart TD
 
     %% Components
@@ -22,7 +22,7 @@ flowchart TD
     D -->|Runs| F
     E -->|Loaded at runtime| D
     D -->|Managed By| X
-
+```
 
 Data/Models/Services: fincancialmodelingprep API (requires API key), Enviromental variable (stored in .env), Python FastAPI.
 
